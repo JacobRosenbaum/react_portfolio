@@ -1,5 +1,5 @@
 body {
-   background-image: url("../../../assets/images/concrete.png");
+    background: url("../../../assets/images/concrete.png");
     background-size: auto, cover;
 }
 
@@ -11,8 +11,8 @@ body {
 
 #jacob {
     background-color: black;
-    padding: 13px;
     color: white;
+    padding: 13px;
 }
 
 h1 {
@@ -23,7 +23,8 @@ h1 {
 .jumbotron {
     background: url("../../../assets/images/concrete.png");
     color: #777777;
-    margin-bottom: 124px;
+    border: #dddddd solid 2px;
+    margin-bottom: 85px;
 }
 
 .row {
@@ -48,14 +49,22 @@ footer {
     font-family: 'Roboto Mono', monospace;
 }
 
-.slideInRight {
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
+.form-group {
+    font-family: 'Roboto Mono', monospace;
+    color: #777777;
 }
 
-#bio-image {
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 20px;
+.form-group {
+    color: black;
+}
+
+#button {
+    background-color: black;
+    border-color: black;
+}
+
+#back {
+    float: right;
+    background-color: black;
+    border-color: black;
 }
