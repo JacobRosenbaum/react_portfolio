@@ -1,9 +1,11 @@
 import React from "react";
 import "../css/about.css";
+import Footer from "../../../Footer/js/Footer"
 
 
 function About() {
   return (
+    <div>
     <div class="container">
       <div class="slideInRight">
         <div class="jumbotron">
@@ -25,6 +27,8 @@ function About() {
               </div>
           </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

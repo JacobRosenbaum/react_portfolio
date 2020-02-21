@@ -1,8 +1,11 @@
 import React from "react";
 import "../css/portfolio.css";
+import Footer from "../../../Footer/js/Footer"
+
 
 function Portfolio() {
   return (
+      <div>
     <div class="container">
     <div class="slideInDown">
         <div class="jumbotron">
@@ -11,7 +14,7 @@ function Portfolio() {
 
             <div class="row flexContainer">
 
-                <div class="col-sm-6 col-m-4 col-12"> <img src={require("../../../assets/images/fieldcopy.png.jpg")} alt="Fantasy Football" />
+                <div class="col-sm-6 col-m-4 col-12"> <img className= "portfolioimg" src={require("../../../assets/images/fieldcopy.png.jpg")} alt="Fantasy Football" />
                     <div class="label">Fantasy Football <span id="database">Database</span></div>
                     <div>
                         <a href="https://jacobrosenbaum.github.io/FantasyFootball/" target="_blank">
@@ -37,7 +40,7 @@ function Portfolio() {
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-m-4 col-12"> <img src={require("../../../assets/images/mountain.jpg")} alt="Weather Dashboard" />
+                <div class="col-sm-6 col-m-4 col-12"> <img  className= "portfolioimg" src={require("../../../assets/images/mountain.jpg")} alt="Weather Dashboard" />
                     <div class="label">Weather Dashboard</div>
                     <div>
                         <a href="https://jacobrosenbaum.github.io/weather_app/index.html" target="_blank">
@@ -49,7 +52,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-m-4 col-12"> <img src={require("../../../assets/images/books.png")} alt="Tutoring Database" />
+                <div class="col-sm-6 col-m-4 col-12"> <img  className= "portfolioimg" src={require("../../../assets/images/books.png")} alt="Tutoring Database" />
                     <div class="label">Tutoring Database</div>
                     <div>
                         <a href="https://mantisshrimp.herokuapp.com/" target="blank">
@@ -61,7 +64,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class= "col-sm-6 col-m-4 col-12">
-                    <img src={require("../../../assets/images/employee_directory.png")} alt="Employee Directory" />
+                    <img className= "portfolioimg" src={require("../../../assets/images/employee_directory.png")} alt="Employee Directory" />
                     <div class="label">Employee Directory</div>
                     <div>
                         <a href="http://undesirable-bite.surge.sh/" target="blank">
@@ -73,7 +76,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class= "col-sm-6 col-m-4 col-12">
-                    <img src={require("../../../assets/images/burger2.png")} alt="Burger" />
+                    <img className= "portfolioimg" src={require("../../../assets/images/burger2.png")} alt="Burger" />
                     <div class="label">Eat-da-Burger</div>
                     <div>
                         <a href="https://burger-app-11.herokuapp.com/" target="blank">
@@ -88,6 +91,8 @@ function Portfolio() {
         </div>
     </div>
 </div>
+<Footer />
+    </div>
   );
 }
 

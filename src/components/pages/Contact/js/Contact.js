@@ -1,8 +1,11 @@
 import React from "react";
 import "../css/contact.css";
+import Footer from "../../../Footer/js/Footer"
+
 
 function Contact() {
   return (
+      <div>
     <div class="container">
     <div class="slideInLeft">
         <div class="jumbotron">
@@ -30,7 +33,8 @@ function Contact() {
         </div>
     </div>
 </div>
-     
+     <Footer />
+     </div>
   );
 }
 
