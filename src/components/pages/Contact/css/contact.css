@@ -23,7 +23,7 @@ h1 {
 .jumbotron {
     background: url("../../../assets/images/concrete.png");
     color: #777777;
-    border: #dddddd solid 2px;
+    /* border: #dddddd solid 2px; */
     margin-bottom: 85px;
 }
 
@@ -49,22 +49,17 @@ footer {
     font-family: 'Roboto Mono', monospace;
 }
 
-.form-group {
+#contactMe {
+    text-align: center;
+}
+
+#information {
+    font-size: 23px;
     font-family: 'Roboto Mono', monospace;
-    color: #777777;
 }
 
-.form-group {
-    color: black;
-}
-
-#button {
-    background-color: black;
-    border-color: black;
-}
-
-#back {
-    float: right;
-    background-color: black;
-    border-color: black;
+.slideInLeft {
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
 }
