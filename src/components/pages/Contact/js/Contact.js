@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/contact.css";
 import Footer from "../../../Footer/js/Footer"
+import Navbar from "../../../Navbar/js/Navbar"
+
 
 
 function Contact() {
   return (
       <div>
+          <Navbar />
     <div class="container">
     <div class="slideInLeft">
         <div class="jumbotron">

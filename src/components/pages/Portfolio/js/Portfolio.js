@@ -1,11 +1,13 @@
 import React from "react";
 import "../css/portfolio.css";
 import Footer from "../../../Footer/js/Footer"
+import Navbar from "../../../Navbar/js/Navbar"
 
 
 function Portfolio() {
   return (
       <div>
+          <Navbar />
     <div class="container">
     <div class="slideInDown">
         <div class="jumbotron">

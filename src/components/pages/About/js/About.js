@@ -1,11 +1,13 @@
 import React from "react";
 import "../css/about.css";
 import Footer from "../../../Footer/js/Footer"
-
+import Navbar from "../../../Navbar/js/Navbar"
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function About() {
   return (
     <div>
+      <Navbar />
     <div class="container">
       <div class="slideInRight">
         <div class="jumbotron">

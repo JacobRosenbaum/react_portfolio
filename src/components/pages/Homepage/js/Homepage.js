@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/homepage.css"
+import { Link } from "react-router-dom";
+
 
 function Homepage() {
   return (
@@ -14,17 +16,17 @@ function Homepage() {
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="responsive">
-                    <a href="views/aboutme.html" style={{color:"black"}}>About Me</a>
+                   <a href="about" style={{color:"black"}}>About Me</a>
                 </h2>
             </div>
             <div class="col-sm-4">
                 <h2 className="responsive">
-                    <a href="views/portfolio.html" style={{color:"black"}}>Portfolio </a>
+                <a href="portfolio" style={{color:"black"}}>Portfolio</a>
                 </h2>
             </div>
             <div class="col-sm-4">
                 <h2 className="responsive">
-                    <a href="views/info.html" style={{color:"black"}}> Contact</a>
+                <a href="contact" style={{color:"black"}}>Portfolio</a>
                 </h2>
             </div>
         </div>
