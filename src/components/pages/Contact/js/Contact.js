@@ -20,6 +20,10 @@ function Contact() {
                     <i class="fas fa-envelope"></i> jacobrosenbaum95@gmail.com
                     </div>
                     <br />
+                    <div id="phone">
+                    <i class="fas fa-phone"></i> 612.709.6363
+                    </div>
+                    <br />
                     <div >
                     <i class="fab fa-github "></i><a href="https://github.com/JacobRosenbaum " style= {{color:"#777777"}} target="blank"> Github</a>
                     </div>
